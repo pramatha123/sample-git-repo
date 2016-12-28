@@ -41,14 +41,14 @@ For Kafka:
 List of Exception codes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-argument.not.found - Argument / Config entry not found.
-config.not.loaded - Unable to load the config entries.
-file.not.found - Error while loading the properties.
-message.not.sent - Exception occurred while sending message.
-message.not.received - Exception occurred while receiving message.
-producer.not.found - Producer should be initialized before sending messages.
-consumer.not.initialized - Exception occurred while initializing consumer.
-producer.not.initialized - Exception occurred while initializing producer.
+1. argument.not.found - Argument / Config entry not found.
+2. config.not.loaded - Unable to load the config entries.
+3. file.not.found - Error while loading the properties.
+4. message.not.sent - Exception occurred while sending message.
+5. message.not.received - Exception occurred while receiving message.
+6. producer.not.found - Producer should be initialized before sending messages.
+7. consumer.not.initialized - Exception occurred while initializing consumer.
+8. producer.not.initialized - Exception occurred while initializing producer.
 
 ^^^^^^^^^^^^^^
 IMPORTANT NOTE
