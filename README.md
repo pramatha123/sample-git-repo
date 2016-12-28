@@ -6,8 +6,9 @@
 Brief Description
 ^^^^^^^^^^^^^^^^^
 
-This project helps the user to pass message (text message) from one thread to another thread. 
-As of now, it sends/receives the message using popular messaging frameworks Kafka, ActiveMQ.
+This project simplifies messaging integration (i.e sending/receiving messages between applications) using a simple API.
+It currently provides implementations using Apache Kafka and Apache ActiveMQ, and can be extended to support
+other messaging providers too.
 
 ^^^^^^^^^^^^^^^^^
 Environment Setup
@@ -16,7 +17,7 @@ Environment Setup
 For ActiveMQ:
 ------------
 
-1. Try to download activemq library from http://activemq.apache.org/activemq-5141-release.html
+1. Download activemq library from http://activemq.apache.org/activemq-5141-release.html
 2. Extract the zip file to your own directory.
 3. Open command prompt, please traverse to the activemq bin directory. (Example: D:\apache-activemq-5.14.1\bin\win64)
 4. Run the command "activemq.bat" to start the ActiveMQ server.
@@ -27,7 +28,7 @@ For ActiveMQ:
 For Kafka:
 ----------
 
-1. Try to download kafka library from https://www.apache.org/dyn/closer.cgi?path=/kafka/0.10.1.0/kafka-0.10.1.0-src.tgz
+1. Download kafka library from https://www.apache.org/dyn/closer.cgi?path=/kafka/0.10.1.0/kafka-0.10.1.0-src.tgz
 2. Extract the zip file to your own directory.
 3. Open command prompt, please traverse to the kafka bin directory. (Example: D:\kafka_2.11-0.10.0.0\bin\windows>)
 4. Run the command "zookeeper-server-start.bat D:\kafka_2.11-0.10.0.0\config\zookeeper.properties" to start the Zookeeper server.
