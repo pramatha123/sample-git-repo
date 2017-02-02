@@ -25,7 +25,7 @@ public class MessageHelper
 		{
 			configPath = configPath.concat(relativePath);
 			logger.info("Config path: " + configPath);
-			logger.info("test logger");
+			
 			inputStream = new FileInputStream(new File(configPath));
 			properties.load(inputStream);
 		}
