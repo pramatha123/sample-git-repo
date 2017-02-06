@@ -44,10 +44,7 @@ public class ActiveMQConsumerProperties
         return contextFactory;
     }
 
-    public int getThreadCount()
-    {
-        return threadCount;
-    }
+   
 
     //logger added
 }
