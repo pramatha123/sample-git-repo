@@ -28,6 +28,8 @@ public class MessageHelper
 			
 			inputStream = new FileInputStream(new File(configPath));
 			properties.load(inputStream);
+			properties.load(inputStream);
+			
 		}
 
 		catch (Exception e)
