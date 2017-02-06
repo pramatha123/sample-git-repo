@@ -25,10 +25,10 @@ public class MessageHelper
 		{
 			configPath = configPath.concat(relativePath);
 			logger.info("Config path: " + configPath);
-			logger.info("Config path: " + configPath);
+			
 			inputStream = new FileInputStream(new File(configPath));
 			properties.load(inputStream);
-			properties.load(inputStream);
+		
 			
 		}
 
