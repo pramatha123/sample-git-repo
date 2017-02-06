@@ -23,13 +23,6 @@ public class MessageHelper
 		String configPath = new File(".").getAbsolutePath();
 		try 
 		{
-			configPath = configPath.concat(relativePath);
-			logger.info("Config path: " + configPath);
-
-			inputStream = new FileInputStream(new File(configPath));
-			properties.load(inputStream);
-			inputStream = new FileInputStream(new File(configPath));
-			properties.load(inputStream);
 			
 		}
 
